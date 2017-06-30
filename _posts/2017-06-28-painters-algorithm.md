@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Painters Algorithm in the Wild"
-date:   2017-06-28 13:25:00 -0400
+date:   2017-06-27 13:25:00 -0400
 categories: groovy grails mongo debugging hacking
 ---
-
-*Originally published 2015, Rally Engineering Blog*
 
 # It Was a Dark and Stormy Night
 

@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Fixing Node Memory Leaks"
-date:   2017-06-27 13:25:00 -0400
+date:   2017-05-27 13:25:00 -0400
 categories: javascript node debugging hacking
 ---
-
-*Originally published 2014, Rally Engineering Blog*
 
 The morning before leaving for vacation recently, I was on call for team Unicorn Bacon (which has a Node.js application in production) when suddenly my phone lit up like a Christmas tree with alerts. I logged into NewRelic and saw that our service had hung because it had run out of RAM and spiked the CPU. After restarting the process I was able to bring the service back online. There’d been some downtime, but well in advance of when most of our customers started their working day.
 
@@ -70,3 +68,5 @@ For more on blameless post-mortems check out [this post](https://codeascraft.com
 [StrongLoop on memory leak diagnosis](http://strongloop.com/strongblog/node-js-performance-tip-of-the-week-memory-leak-diagnosis/)
 
 Shout outs to the Unicorn Bacon engineers: Ryan Farris, Matt Greer, Miki Rezentes, Joel Sherriff, John Skarbek, Patrick Winters
+
+*Author's note - this post originally appeared in the Rallydev.com Engineering blog, which has been lost in the internet.  But thanks to the [wayback machine](https://web.archive.org), it is back online!*

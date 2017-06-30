@@ -1,12 +1,9 @@
 ---
 layout: post
 title:  "When Java and Groovy Collide"
-date:   2017-06-29 12:25:00 -0400
+date:   2017-06-22 12:25:00 -0400
 categories: groovy grails debugging hacking
 ---
-
-*Originally published 2015, Rally Engineering Blog*
-## One Fine Day ...
 
 One day, while we were working on stories to add some cool new features that we could ship to our customers, our operations team pinged us. Our analytics service, the Lookback API, was alerting on high CPU load. Lo and behold, we saw that there were a ton of very sad graphs. Oracle connections exhausted! Response times reaching multiple seconds! Five hundred series response codes! JVM heap completely allocated!
 Gathering Forensics
