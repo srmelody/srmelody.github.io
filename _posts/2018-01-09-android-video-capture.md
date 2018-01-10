@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Android Video Capture
+title:  "Android Video Capture"
 date:   2018-01-09 13:25:00 -0400
-categories: android  debugging hacking
+categories: android debugging hacking
 ---
 
 This is the oddest thing I've run across.  I followed all of the tutorials using Android's Camera Intent for capturing a video and was reusing code that uploads the contents to an S3 bucket (via Carrier Wave in Rails).  When I uploaded the mp4, it would set the Content-Type to video/mp4, I could download and play the file, I could view it in Android chrome and Safari (OS X and iOS).  But Firefox and Chrome on my Mac would not play it.
